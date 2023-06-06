@@ -23,12 +23,13 @@ resource "hashicups_order" "edu" {
     },
     {
       coffee = {
-        id = 1
+        id = 2
       }
-      quantity = 2
+      quantity = 3
     }
   ]
 }
+
 
 output "edu_order" {
   value = hashicups_order.edu
